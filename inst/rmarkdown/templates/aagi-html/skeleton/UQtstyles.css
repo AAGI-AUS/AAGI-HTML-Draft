@@ -1,0 +1,36 @@
+h1.title {  
+  font-family: Calibri;
+  font-size: 29pt;
+  font-style:bold;
+  color: #00808b;
+}
+h2 {
+  font-family: calibri; 
+  font-size:25pt; 
+  font-style:bold; 
+  color:#414042;
+}
+h3 {
+  font-family: calibri; 
+  font-size:20pt; 
+  font-style:bold; 
+  color:#414042;
+}
+h4 {
+  font-family: calibri; 
+  font-size:15pt; 
+  font-style:bold; 
+  color:#414042;
+}
+body {
+  font-family: Calibri;
+  font-size:13pt; 
+  font-style:normal; 
+  color:#414042;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+

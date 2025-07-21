@@ -1,0 +1,65 @@
+---
+title: |
+  Analytics for the Australian Grains Industry  
+  University of Queensland (AAGI-UQ)  
+  Research and Development Report
+subtitle: "*Trial Name* - Quantitative Genetic Analysis Report"
+author: 
+  - '**Dr Zulfi Jahufer** (zulfi.jahufer@uq.edu.au)'
+  - 'Dr Robert Armstrong'
+  - 'Varun Ranganath'
+date: "`r format(Sys.Date(), '%d-%m-%Y')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    toc_float:
+      position: left
+    css: UQtstyles.css
+    includes: 
+      in_header: header.html
+    self_contained: true
+    fig_align: center
+  pdf_document:
+    toc: false
+    toc_depth: '5'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  #  include = FALSE, #Include chunk output
+  warning = FALSE, #Include warnings of functions
+  message = FALSE, #Include message of functions
+  error = FALSE, #Include errors
+  echo = FALSE #include source code
+)
+library(ggplot2)
+library(GGally)
+```
+
+## Data Info {.tabset .tabset-pills}
+
+### Structure
+
+```{r}
+str(data.frame(iris))
+```
+
+### Data Table
+
+```{r}
+iris
+```
+
+### Summary table
+
+```{r}
+summary(iris)
+```
+
+### Data Plot
+
+```{r}
+ggpairs(iris)
+```
+
