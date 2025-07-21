@@ -1,0 +1,8 @@
+
+Package: MyTemplate
+Title: My RMarkdown Template
+Description: A reusable RMarkdown template for reports.
+Version: 0.1
+Author: Varun Ranganath
+Maintainer: v.ranganath@uq.edu.au
+License: MIT
