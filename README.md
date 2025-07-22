@@ -25,3 +25,21 @@ This package was developed based on the original work by Dr. Dongwen Luo, a Seni
 
 Please note that the logo of the AAGI project and the logos for the GRDC and AAGI strategic partners do not fall under the MIT License. AAGI retains full rights to the AAGI logo. The GRDC and the AAGI strategic partners—Curtin University, the University of Queensland and the University of Adelaide/Adelaide University—retain full rights to their own logos respectively.
 
+```
+📦 AAGI-HTML-DRAFT
+├─ DESCRIPTION
+├─ NAMESPACE
+├─ README.md
+└─ inst
+   └─ rmarkdown
+      └─ templates
+         └─ AAGI HTML
+            ├─ skeleton
+            │  ├─ UQtstyles.css
+            │  ├─ header.html
+            │  ├─ images
+            │  │  ├─ AAGI.png
+            │  │  └─ Partners.png
+            │  └─ skeleton.Rmd
+            └─ template.yaml
+```
