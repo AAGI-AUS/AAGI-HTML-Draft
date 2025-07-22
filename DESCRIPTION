@@ -1,5 +1,5 @@
 
-Package: MyTemplate
+Package: aagi-html
 Type: Package
 Title: Custom RMarkdown Templates
 Version: 0.1.0
