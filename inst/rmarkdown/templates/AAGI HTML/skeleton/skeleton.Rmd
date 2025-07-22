@@ -3,11 +3,11 @@ title: |
   Analytics for the Australian Grains Industry  
   University of Queensland (AAGI-UQ)  
   Research and Development Report
-subtitle: "*Trial Name* - Quantitative Genetic Analysis Report"
+subtitle: "*Trial Name* - Analysis Report"
 author: 
-  - '**Dr Zulfi Jahufer** (zulfi.jahufer@uq.edu.au)'
-  - 'Dr Robert Armstrong'
-  - 'Varun Ranganath'
+  - 'Name 1'
+  - 'Name 2'
+  - 'Name 3'
 date: "`r format(Sys.Date(), '%d-%m-%Y')`"
 output:
   html_document:
