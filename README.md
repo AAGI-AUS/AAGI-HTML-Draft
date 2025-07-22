@@ -17,6 +17,6 @@ Once this has been installed, we can find the template added onto RStudio. The n
   <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/d666c055-3358-4bde-a039-85e0e2be1d34" />
 </p>
 
-## Acknowledgment
+## Acknowledgments
 
 This package was developed based on the original work by Dr. Dongwen Luo, a Senior Researcher at AgResearch, New Zealand. We gratefully acknowledge his contributions.
