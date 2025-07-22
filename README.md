@@ -1,6 +1,6 @@
 # AAGI HTML Draft
 
-This package (repository) enables users to generate HTML reports for analytics projects as part of the AAGI initiative. After installing the package from GitHub, dynamic and reproducible reports can be rendered locally, compliant with AAGI templating guidelines. The aim of this repository is to be able to combine this with the AAGITemplates package available in the AAGI-AUS repository. This repository is intended as a working draft for the report template. (https://github.com/AAGI-AUS/AAGITemplates)
+This package (repository) enables users to generate HTML reports for analytics projects as part of the AAGI initiative. After installing the package from GitHub, dynamic and reproducible reports can be rendered locally, compliant with AAGI templating guidelines. This repository is intended as a working draft for a report template designed to integrate with the AAGITemplates package from the AAGI-AUS repository. (https://github.com/AAGI-AUS/AAGITemplates)
 
 ## Install instructions
 
