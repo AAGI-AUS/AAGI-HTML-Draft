@@ -4,9 +4,11 @@ This package (repository) enables users to generate HTML reports by executing pr
 
 ## Install instructions
 
-Install this R package with:
+Install this R package on RStudio with:
 
 ```r
 if(!require("remotes")) install.packages("remotes") 
 remotes::install_github("AAGI-Org-AU/AAGI-HTML-Draft", upgrade = FALSE)
+```
 
+Once this has been installed, we can find the template added onto RStudio
