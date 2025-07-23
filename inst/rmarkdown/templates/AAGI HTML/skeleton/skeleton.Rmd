@@ -18,13 +18,15 @@ output:
     css: UQtstyles.css
     includes: 
       in_header: header.html
-      before_body: before_body.html
     self_contained: true
     fig_align: center
   pdf_document:
     toc: false
     toc_depth: '5'
 ---
+<div style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
+  <img src="images/Partners.png" style="width: 100%;" />
+</div>
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
   #  include = FALSE, #Include chunk output
