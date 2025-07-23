@@ -1,36 +1,93 @@
-h1.title {  
-  font-family: Calibri;
+/* === Proxima Nova Font Face Definitions === */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local('Proxima Nova'), local('ProximaNova-Regular'), local('Proxima Nova Regular'),
+       url('../fonts/Proxima Nova Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), local('Proxima Nova Bold'),
+       url('../fonts/Proxima Nova Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local('Proxima Nova Italic'), local('ProximaNova-Italic'), local('Proxima Nova Italic'),
+       url('../fonts/Proxima Nova Regular Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldItalic'), local('Proxima Nova Bold Italic'),
+       url('../fonts/Proxima Nova Bold Italic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* === Font Stack Variable === */
+:root {
+  --aagi-font-stack: 'Proxima Nova', 'Arial', sans-serif;
+}
+
+h1.title {
+  font-family: var(--aagi-font-stack);
+  font-size: 21pt;
+  font-weight: bold;
+  color: #414042;
+  margin-top: 5px;
+}
+
+h4.report-series {
+  font-family: var(--aagi-font-stack);
   font-size: 26pt;
-  font-style:bold;
+  font-weight: bold;
   color: #00808b;
+  margin-bottom: 0;
 }
+
+h1 {
+  font-family: var(--aagi-font-stack);
+  font-size: 20pt;
+  font-weight: bold;
+  color: #414042;
+  margin-top: 5px;
+}
+
+p.subtitle {
+  font-family: var(--aagi-font-stack);
+  font-size: 18pt;
+  color: #414042;
+  margin-top: 5px;
+}
+
 h2 {
-  font-family: calibri; 
-  font-size:23pt; 
-  font-style:bold; 
-  color:#414042;
+  font-family: var(--aagi-font-stack);
+  font-size: 18pt;
+  font-weight: bold;
+  color: #414042;
 }
+
 h3 {
-  font-family: calibri; 
-  font-size:20pt; 
-  font-style:bold; 
-  color:#414042;
+  font-family: var(--aagi-font-stack);
+  font-size: 16pt;
+  font-weight: bold;
+  color: #414042;
 }
+
 h4 {
-  font-family: calibri; 
-  font-size:17pt; 
-  font-style:bold; 
-  color:#414042;
+  font-family: var(--aagi-font-stack);
+  font-size: 14pt;
+  font-weight: bold;
+  color: #414042;
 }
+
 body {
-  font-family: Calibri;
-  font-size:14pt; 
-  font-style:normal; 
-  color:#414042;
+  font-family: var(--aagi-font-stack);
+  font-size: 13pt;
+  font-style: normal;
+  color: #414042;
 }
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-
