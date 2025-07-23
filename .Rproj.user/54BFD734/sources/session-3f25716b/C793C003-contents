@@ -1,0 +1,67 @@
+---
+title: |
+  Analytics for the Australian Grains Industry  
+  University of Queensland (AAGI-UQ)  
+  Research and Development Report
+subtitle: "*Trial Name* - Analysis Report"
+author: 
+  - 'Name 1'
+  - 'Name 2'
+  - 'Name 3'
+date: "`r format(Sys.Date(), '%d-%m-%Y')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    toc_float:
+      position: left
+    css: UQtstyles.css
+    includes: 
+      in_header: header.html
+    self_contained: true
+    fig_align: center
+  pdf_document:
+    toc: false
+    toc_depth: '5'
+---
+<div style="text-align: center; margin-bottom: 10px;">
+  <img src="images/Partners.png" style="width: 100%" />
+</div>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  #  include = FALSE, #Include chunk output
+  warning = FALSE, #Include warnings of functions
+  message = FALSE, #Include message of functions
+  error = FALSE, #Include errors
+  echo = FALSE #include source code
+)
+library(ggplot2)
+library(GGally)
+```
+
+## Data Info {.tabset .tabset-pills}
+
+### Structure
+
+```{r}
+str(data.frame(iris))
+```
+
+### Data Table
+
+```{r}
+iris
+```
+
+### Summary table
+
+```{r}
+summary(iris)
+```
+
+### Data Plot
+
+```{r}
+ggpairs(iris)
+```
+
