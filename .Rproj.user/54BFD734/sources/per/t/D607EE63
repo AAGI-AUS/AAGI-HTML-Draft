@@ -3,7 +3,7 @@
     "path": "C:/Users/uqvranga/Documents/GitHub/AAGI-HTML-Draft/inst/rmarkdown/templates/AAGI HTML/skeleton/UQtstyles.css",
     "project_path": "inst/rmarkdown/templates/AAGI HTML/skeleton/UQtstyles.css",
     "type": "css",
-    "hash": "21124018",
+    "hash": "2366680161",
     "contents": "",
     "dirty": false,
     "created": 1753241664568.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "20,14",
+        "cursorPosition": "26,14",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1753241711,
+    "lastKnownWriteTime": 1753242126,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1753241711508,
+    "last_content_update": 1753242126716,
     "read_only": false,
     "read_only_alternatives": []
 }
