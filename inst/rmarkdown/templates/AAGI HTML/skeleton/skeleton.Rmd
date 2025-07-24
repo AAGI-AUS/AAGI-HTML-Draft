@@ -25,7 +25,7 @@ output:
     toc_depth: '5'
 ---
 <div style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
-  <img src="images/Partners.png" style="width: 100%;" />
+  <img src="https://github.com/AAGI-AUS/AAGI-Style-Guide-and-Logos/blob/main/assets/Partners.svg?raw=true" style="width: 100%;" />
 </div>
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
