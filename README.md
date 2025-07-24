@@ -37,9 +37,6 @@ Please note that the logo of the AAGI project and the logos for the GRDC and AAG
             ├─ skeleton
             │  ├─ UQtstyles.css
             │  ├─ header.html
-            │  ├─ images
-            │  │  ├─ AAGI.png
-            │  │  └─ Partners.png
             │  └─ skeleton.Rmd
             └─ template.yaml
 ```
